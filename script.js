@@ -4,3 +4,15 @@ let distances = [80, 120, 160, 200, 240];
 let ovalFactor = 0.6; 
 let rotationSpeeds = [0.5, 0.7, 0.6, 0.4, 0.3];
 let planetColors = ["red", "blue", "green", "brown", "purple"];
+
+function setup() {
+    createCanvas(600, 600);
+  }
+  
+  function draw() {
+    background(0);
+    
+    fill("yellow");
+    ellipse(width / 2, height / 2, sunRadius * 2);
+
+  }
